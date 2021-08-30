@@ -1,15 +1,11 @@
-
-
-
-
-
 function calcualalte(){
-  var v, vv, k;
- v = parseInt(document.getElementById("onee").value);
- vv = parseInt(document.getElementById("too").value);
- 
-  k = v + vv;
-  document.getElementById("eq").value = k;
+  let a,b,o;
+
+  a=parseInt( document.querySelector("#onee").value);
+  b=parseInt( document.querySelector("#too").value);
+
+  o=a+b;
+  document.querySelector("#eq").value=o;
+
+
 }
-
-
