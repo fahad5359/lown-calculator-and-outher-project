@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+  <title>lown calculator</title>
 </head>
+
 <body>
 
   <div id="container">
     <div class="box">
       <h2>Loan Calculator </h2>
       <div id="upper">
-        <span id="span-style">$</span>
-        <input id="amount" type="number">
-        <span id="span-style">%</span>
-        <input id="intrest" type="number">
-        <input type="text">
+        <div id="amnt">
+          <span id="span-style">$</span>
+          <input placeholder="Lown Amount" id="amount" type="number">
+        </div>
+        <div id="inst">
+          <span id="span-style">%</span>
+          <input placeholder="Intrest" id="intrest" type="number">
+        </div>
+        <div id="yrs-tpay">
+          <input placeholder="Years to repay" type="number">
+        </div>
       </div>
 
-      <div id="lower">
-        <input id="mounth-p" type="number" disabled>
-        <input id="total-p" type="number" disabled>
-        <input id="total-i" type="number" disabled>
-      </div>
+
+        <div id="lower">
+          <div>
+          <input id="mounth-p" type="number" disabled>
+          </div>
+          <div>
+          <input id="total-p" type="number" disabled>
+        </div>
+          <input id="total-i" type="number" disabled>
+        </div>
+
      
     </div>
-  </div>
 
-  <script src="/jav.js"></script>
-  
+    <script src="/jav.js"></script>
+
 </body>
+
 </html>
