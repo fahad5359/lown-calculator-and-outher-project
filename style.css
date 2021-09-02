@@ -1,4 +1,24 @@
+
+#container{
+  margin: auto;
+  text-align: center;
+}
 .box{
+  width: 600px;
+  margin: auto;
   display: flex;
   flex-direction: column;
+  background-color: white;
+  height: 600px;
+}
+
+body{
+  background-color: darkslategray;
+}
+
+
+#span-style{
+  background-color: rgb(238, 232, 232);
+  border: 1px  ;
+  border-radius: 10px;
 }
